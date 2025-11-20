@@ -17,9 +17,8 @@ jobs:
         with:
           node-version: 18
 
-      - name: Install Playwright
-        run: npm init playwright@latest --yes
+      - name: Install dependencies
+        run: npm install
 
       - name: Run tests
-        run: npx playwright test
-
+        run: npm test
