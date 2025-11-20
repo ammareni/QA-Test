@@ -5,5 +5,5 @@ test('homepage loads and shows correct title', async ({ page }) => {
   await expect(page).toHaveTitle(/GFI/);
 
   // Capture screenshot
-  await page.screenshot({ path: 'screenshots/homepage.png' });
+  await page.screenshot({ path: 'screenshots/homepage-gfi.png' });
 });
